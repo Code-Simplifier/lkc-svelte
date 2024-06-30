@@ -1,7 +1,7 @@
 <script>
 	import "../styles/app.css";
 	import "@fontsource-variable/oxanium";
-	import "@fontsource-variable/space-grotesk";
+	import "@fontsource-variable/quicksand"
 
 	import Navbar from "$lib/components/custom/navbar.svelte";
 </script>

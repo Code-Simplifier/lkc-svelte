@@ -11,7 +11,7 @@
 <div
 	class="fixed mb-5 hidden w-full flex-col items-center justify-center space-y-5 backdrop-blur-lg md:flex"
 >
-	<img src="/img/logo.png" alt="logo" class="mt-4 h-[80px]" />
+	<a href="/"><img src="/img/logo.png" alt="logo" class="mt-4 h-[80px]" /></a>
 	<Menubar.Root class="border-none bg-transparent font-semibold text-slate-400">
 		{#each NavLinks as navLink}
 			<Menubar.Menu>
@@ -33,10 +33,12 @@
 </div>
 <div class="flex md:hidden">
 	<Drawer.Root>
-		<Drawer.Trigger class="fixed flex w-full items-center justify-between p-4 backdrop-blur-lg">
-			<img src="/img/logo.png" alt="logo" class=" h-[40px]" />
-			<Icon icon="clarity:menu-line" class="text-xl" />
-		</Drawer.Trigger>
+		<div class="fixed flex w-full justify-between p-4 backdrop-blur-lg">
+			<a href="/"><img src="/img/logo.png" alt="logo" class="h-[40px]" /></a>
+			<Drawer.Trigger class="">
+				<Icon icon="clarity:menu-line" class="text-xl" />
+			</Drawer.Trigger>
+		</div>
 		<Drawer.Content>
 			<br />
 			<div class="grid grid-cols-2">
@@ -48,7 +50,11 @@
 						<DropdownMenu.Content>
 							{#each navLink.sublinks as sublink}
 								<DropdownMenu.Group>
-									<DropdownMenu.Item class="text-base capitalize">{sublink}</DropdownMenu.Item>
+									<a
+										href={`/${navLink.title.replaceAll(" ", "-")}/${sublink.replaceAll(" ", "-")}`}
+									>
+										<DropdownMenu.Item class="text-base capitalize">{sublink}</DropdownMenu.Item>
+									</a>
 								</DropdownMenu.Group>
 							{/each}
 						</DropdownMenu.Content>
