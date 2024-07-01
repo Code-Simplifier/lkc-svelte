@@ -8,11 +8,29 @@ export const NavLinks = [
 		sublinks: ["programmes", "curriculum", "council", "results", "examination", "calendar"]
 	},
 	{
-		title: "admissions",
-		sublinks: ["information", "courses", "eligibility", "prospects", "fee structure", "helpline"]
+		title: "departments",
+		sublinks: [
+			"biotechnology",
+			"business & commerce",
+			"chemistry",
+			"computer science",
+			"economics",
+			"english",
+			"environmental studies",
+			"geography",
+			"history",
+			"mathematics",
+			"music",
+			"physics",
+			"physiotherapy",
+			"political science",
+			"punjabi",
+			"sports & physical education",
+			"zoology & botany"
+		]
 	},
 	{
-		title: "departments",
+		title: "admissions",
 		sublinks: ["information", "courses", "eligibility", "prospects", "fee structure", "helpline"]
 	},
 	{
