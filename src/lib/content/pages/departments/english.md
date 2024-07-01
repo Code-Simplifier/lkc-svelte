@@ -1,33 +1,80 @@
 ---
-title: English
+title: PG Department of English
 icon: solar:sort-by-alphabet-bold
 thumbnail: /departments/computer-science.jpeg
-courses: [
+courses:
+  [
+    { title: "BCA", duration: 3 },
+    { title: "B.Sc. (IT)", duration: 3 },
+    { title: "M.Sc. (IT)", duration: 2 }
+  ]
+faculity:
+  [
     {
-        title: "BCA",
-        duration: 3
+      name: "Jasreen Kaur",
+      designation: "Head of Dept.",
+      qualification: "M.A. , M.Phil",
+      profile: "/"
     },
     {
-        title: "B.Sc. (IT)",
-        duration: 3
+      name: "Dr. Balraj Kaur",
+      designation: "Associate Professor",
+      qualification: "B.A (Hons English) , M.A (English) , M.Phil , Ph.D",
+      profile: "/"
     },
     {
-        title: "M.Sc. (IT)",
-        duration: 2
-    },
-]
-faculity: [
-    {
-        name: "Dr. Manpreet Singh Lehal",
-        designation: "Assistant Professor", 
-        qualification: "Ph.D., M.Sc. (Mathematics), M. Tech (IT)",
-        profile: "/"
+      name: "Dr. Hariom Verma",
+      designation: "Associate Professor",
+      qualification: "M.A. , Ph.D",
+      profile: "/"
     },
     {
-        name: "Dr. Sandeep Singh",
-        designation: "Assistant Professor", 
-        qualification: "Ph.D. (Computer Applications), MCA (Hons.)",
-        profile: "/"
-    }
+      name: "Ahuja Sandeep",
+      designation: "Assistant Professor",
+      qualification: "M.A",
+      profile: "/"
+    },
+    {
+      name: "Dr. Kanchan Mehta",
+      designation: "Assistant Professor",
+      qualification: "M.A. , Ph.D",
+      profile: "/"
+    },
+    {
+      name: "Dr. Hariom Verma",
+      designation: "Associate Professor",
+      qualification: "M.A. , Ph.D",
+      profile: "/"
+    },
+    {
+      name: "Dr. Hariom Verma",
+      designation: "Associate Professor",
+      qualification: "M.A. , Ph.D",
+      profile: "/"
+    },
+    {
+      name: "Dr. Charanjit Singh",
+      designation: "Assistant Professor",
+      qualification: "M.A (English) , M.Phil (English) , Ph.D. (English)",
+      profile: "/"
+    },
+    {
+      name: "Dr. Manmeet Sodhi	",
+      designation: "Assistant Professor",
+      qualification: "M.A., M.Phil , Ph.D",
+      profile: "/"
+    },
+    {
+      name: "Geetanjali Mahajan",
+      designation: "Assistant Professor",
+      qualification: "B.A (Hons) , M.A , M.Phil",
+      profile: "/"
+    },
+    {
+      name: "Manju Joshi",
+      designation: "Assistant Professor",
+      qualification: "B.A (Hons) , M.A",
+      profile: "/"
+    },
 ]
 ---

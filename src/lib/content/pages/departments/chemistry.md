@@ -18,16 +18,46 @@ courses: [
 ]
 faculity: [
     {
-        name: "Dr. Manpreet Singh Lehal",
-        designation: "Assistant Professor", 
-        qualification: "Ph.D., M.Sc. (Mathematics), M. Tech (IT)",
+        name: "Dr. Rajnish Moudgil",
+        designation: "Head of Department", 
+        qualification: "M.Sc , B.Ed , Ph.D.",
         profile: "/"
     },
     {
-        name: "Dr. Sandeep Singh",
+        name: "Dr. Navjot Kaur",
         designation: "Assistant Professor", 
-        qualification: "Ph.D. (Computer Applications), MCA (Hons.)",
+        qualification: "M.Sc (Hons) , Ph.D.",
         profile: "/"
-    }
+    },
+    {
+        name: "Dr. Bhupinderpal Singh",
+        designation: "Assistant Professor", 
+        qualification: "M.Sc , Ph.D.",
+        profile: "/"
+    },
+    {
+        name: "Dr. Geetanjli Kaushal",
+        designation: "Assistant Professor", 
+        qualification: "M.Sc , M.Phil , Ph.D.",
+        profile: "/"
+    },
+    {
+        name: "Dr. Vikas Kumar",
+        designation: "Assistant Professor", 
+        qualification: "M.Sc , Ph.D.",
+        profile: "/"
+    },
+    {
+        name: "Dr. Harshveer Arora",
+        designation: "Assistant Professor", 
+        qualification: "M.Sc , Ph.D.",
+        profile: "/"
+    },
+    {
+        name: "Dr. Harjinder Kaur	",
+        designation: "Assistant Professor", 
+        qualification: "M.Sc (Hons) , Ph.D.",
+        profile: "/"
+    },
 ]
 ---
